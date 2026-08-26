@@ -50,7 +50,7 @@ llm = ChatOpenAI(
     base_url= "http://127.0.0.1:31415/v1",
     api_key= "freellmapi-704878672ffd732da01727053c869683948f26decc0f8713"
 )
-
+"values", # or "updates" or "debug
 class State(TypedDict):
     text: str
     result: str
